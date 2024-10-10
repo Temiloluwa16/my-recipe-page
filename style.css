@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+    font-family: "Young Serif", serif;
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.omelette-pic {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+}
+
+.omelette-pic img {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+     
+}
+
+.container {
+    width: 50%;
+    background-color:#FFFFFF ;
+    margin: 0 auto;
+    padding: 35px;
+    margin-top: 70px;
+    border-radius: 20px;
+    
+}
+
+h1 {
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+
+.prep-time {
+    background-color:#FFF7FC ;
+    padding: 20px;
+    
+   
+}
+
+.prep-list {
+   padding: 20px;
+   margin-left: 30px;
+   background-color: #FFF7FC;
+}
+
+h3{
+    color: hsl(332, 51%, 32%);
+}
