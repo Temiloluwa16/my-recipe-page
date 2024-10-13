@@ -43,6 +43,10 @@ body {
     
 }
 
+ul, li, .nutrition, .description {
+    color:rgba(0, 0, 0, 0.5)
+}
+
 h1 {
     font-weight: 700;
     margin-top: 10px;
@@ -58,8 +62,9 @@ h1 {
 .prep-time {
     background-color:#FFF7FC ;
     padding: 20px;
-    
-   
+    border-radius: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
 }
 
 .prep-list {
@@ -68,6 +73,32 @@ h1 {
    background-color: #FFF7FC;
 }
 
-h3{
-    color: hsl(332, 51%, 32%);
+h3, .prep-list li::marker{
+    color: hsl(332, 51%, 32%)
+}
+
+ul, .prep-list li{
+padding-left: 23px;
+margin-bottom: 10px;
+}
+
+h2,  .ingredient-list li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+li::marker {
+    font-size: 12px;
+}
+
+.ingredient{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.title{
+    margin-bottom: 10px;
+}
+
+.ingredient-list {
+    padding: 20px;
 }
