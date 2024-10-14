@@ -17,6 +17,8 @@ body {
     background-color: hsl(30, 54%, 90%);
     min-height: 100vh;
     box-sizing: border-box;
+    justify-content: center;
+   
 }
 
 .omelette-pic {
@@ -40,6 +42,7 @@ body {
     padding: 35px;
     margin-top: 70px;
     border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
 }
 
@@ -101,4 +104,93 @@ li::marker {
 
 .ingredient-list {
     padding: 20px;
+  
+}
+
+.ingredient-list li, .instructions li {
+    margin-bottom: 10px;
+}
+
+.instructions h2{
+    margin-bottom: 20px;
+}
+
+.instructions {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.instructions ol {
+    padding-left: 30px;
+  
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-size: 15px;
+    font-weight: bold;
+     
+}
+
+.instructions li {
+    text-indent: 10px;
+}
+
+.nutrition {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nutrition h2 {
+    margin-bottom: 20px;
+}
+.nutrition-list {
+    padding: 20px;
+    
+}
+
+.nutrition-list strong {
+    margin-left: 150px;
+    
+    padding: 10px ;
+    padding-bottom: 0;
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    display:inline-flex;
+    
+}
+
+.nutrition-list p {
+    margin-top: 20px;
+    margin-bottom: 0; 
+    display: inline;
+    
+}
+.attribution {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+a {
+    color: hsl(332, 51%, 32%);
+    text-decoration: none;
+}
+a:hover {
+    color: hsl(332, 38%, 66%);
+    text-decoration: underline;
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 80%;
+        padding: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+  
+         
+    
 }
